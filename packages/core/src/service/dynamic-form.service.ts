@@ -315,7 +315,7 @@ export class DynamicFormService {
 
         formModelJSON.forEach((model: any) => {
 
-            let layout = model.layout || model.cls || null; // remove model.cls in next major release
+            let layout = model.layout || null;
 
             switch (model.type) {
 

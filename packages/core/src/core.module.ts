@@ -1,5 +1,5 @@
 import { CommonModule } from "@angular/common";
-import { NgModule, ModuleWithProviders } from "@angular/core";
+import { NgModule } from "@angular/core";
 import { ReactiveFormsModule } from "@angular/forms";
 import { DynamicIdDirective } from "./directive/dynamic-id.directive";
 import { DynamicListDirective } from "./directive/dynamic-list.directive";
@@ -21,10 +21,4 @@ import { DynamicTemplateDirective } from "./directive/dynamic-template.directive
         DynamicTemplateDirective
     ]
 })
-export class DynamicFormsCoreModule {
-
-    //@deprecated
-    static forRoot(): ModuleWithProviders {
-        return {ngModule: DynamicFormsCoreModule};
-    }
-}
+export class DynamicFormsCoreModule {}

@@ -2,8 +2,8 @@ import { DynamicInputControlModel, DynamicInputControlModelConfig } from "../dyn
 import { DynamicFormControlLayout } from "../misc/dynamic-form-control-layout.model";
 import { serializable } from "../../decorator/serializable.decorator";
 import { JSONUtils } from "../../utils/json.utils";
-import { isBoolean, isNumber, isObservable } from "../../utils/core.utils";
-import { Observable, of } from "rxjs";
+import { isBoolean, isNumber } from "../../utils/core.utils";
+import { Observable, isObservable, of } from "rxjs";
 import { tap } from "rxjs/operators";
 
 export const DYNAMIC_FORM_CONTROL_TYPE_INPUT = "INPUT";
