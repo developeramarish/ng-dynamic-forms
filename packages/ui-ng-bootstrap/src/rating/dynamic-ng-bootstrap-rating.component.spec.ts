@@ -26,8 +26,8 @@ describe("DynamicNGBootstrapRatingComponent test suite", () => {
                 ReactiveFormsModule,
                 NoopAnimationsModule,
                 TextMaskModule,
-                NgbRatingModule.forRoot(),
-                DynamicFormsCoreModule.forRoot()
+                NgbRatingModule,
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicNGBootstrapRatingComponent]
 

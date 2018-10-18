@@ -26,7 +26,7 @@ xdescribe("DynamicIonicRadioGroupComponent test suite", () => {
                 ReactiveFormsModule,
                 NoopAnimationsModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicIonicRadioGroupComponent]
 

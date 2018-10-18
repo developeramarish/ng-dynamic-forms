@@ -27,7 +27,7 @@ describe("DynamicPrimeNGInputMaskComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 InputMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicPrimeNGInputMaskComponent]
 

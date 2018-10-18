@@ -27,7 +27,7 @@ describe("DynamicMaterialSliderComponent test suite", () => {
                 NoopAnimationsModule,
                 MatSliderModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicMaterialSliderComponent]
 

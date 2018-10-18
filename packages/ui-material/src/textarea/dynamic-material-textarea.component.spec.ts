@@ -27,7 +27,7 @@ describe("DynamicMaterialTextAreaComponent test suite", () => {
                 NoopAnimationsModule,
                 MatInputModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicMaterialTextAreaComponent]
 

@@ -29,7 +29,7 @@ describe("DynamicMaterialDatePickerComponent test suite", () => {
                 MatInputModule,
                 MatNativeDateModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicMaterialDatePickerComponent]
 

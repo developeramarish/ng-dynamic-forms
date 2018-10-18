@@ -27,7 +27,7 @@ describe("DynamicKendoMaskedTextBoxComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 MaskedTextBoxModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicKendoMaskedTextBoxComponent]
 

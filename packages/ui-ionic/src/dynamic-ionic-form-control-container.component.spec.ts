@@ -71,7 +71,7 @@ xdescribe("DynamicIonicFormControlContainerComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 IonicModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicIonicFormControlContainerComponent, DynamicIonicInputComponent]
 

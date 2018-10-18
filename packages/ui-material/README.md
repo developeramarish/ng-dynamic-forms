@@ -13,7 +13,7 @@ npm install @ng-dynamic-forms/ui-material -S
         // ...
         ReactiveFormsModule,
         BrowserAnimationsModule,
-        DynamicFormsCoreModule.forRoot(),
+        DynamicFormsCoreModule,
         DynamicFormsMaterialUIModule
     ]
 })

@@ -25,7 +25,7 @@ describe("DynamicKendoCheckboxComponent test suite", () => {
                 ReactiveFormsModule,
                 NoopAnimationsModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicKendoCheckboxComponent]
 

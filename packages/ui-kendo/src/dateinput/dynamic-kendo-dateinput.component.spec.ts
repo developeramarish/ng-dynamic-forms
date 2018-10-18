@@ -27,7 +27,7 @@ describe("DynamicKendoDateInputComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 DateInputModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicKendoDateInputComponent]
 

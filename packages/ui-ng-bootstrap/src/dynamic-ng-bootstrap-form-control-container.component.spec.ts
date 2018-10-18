@@ -88,11 +88,11 @@ describe("DynamicNGBootstrapFormControlContainerComponent test suite", () => {
             imports: [
                 ReactiveFormsModule,
                 NgbButtonsModule,
-                NgbDatepickerModule.forRoot(),
-                NgbRatingModule.forRoot(),
-                NgbTimepickerModule.forRoot(),
+                NgbDatepickerModule,
+                NgbRatingModule,
+                NgbTimepickerModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicNGBootstrapFormControlContainerComponent, DynamicNGBootstrapInputComponent]
 

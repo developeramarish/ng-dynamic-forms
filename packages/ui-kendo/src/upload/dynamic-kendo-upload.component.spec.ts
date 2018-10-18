@@ -27,7 +27,7 @@ xdescribe("DynamicKendoUploadComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 UploadModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicKendoUploadComponent]
 

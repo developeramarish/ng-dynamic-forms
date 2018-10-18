@@ -29,7 +29,7 @@ describe("DynamicBasicRadioGroupComponent test suite", () => {
                 ReactiveFormsModule,
                 NoopAnimationsModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicBasicRadioGroupComponent]
 

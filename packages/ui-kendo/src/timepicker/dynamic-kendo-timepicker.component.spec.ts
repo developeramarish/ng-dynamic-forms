@@ -27,7 +27,7 @@ describe("DynamicKendoTimePickerComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 TimePickerModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicKendoTimePickerComponent]
 

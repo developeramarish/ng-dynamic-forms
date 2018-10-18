@@ -27,7 +27,7 @@ describe("DynamicPrimeNGChipsComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 ChipsModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicPrimeNGChipsComponent]
 

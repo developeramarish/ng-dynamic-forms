@@ -27,7 +27,7 @@ describe("DynamicPrimeNGRatingComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 RatingModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicPrimeNGRatingComponent]
 

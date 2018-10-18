@@ -27,7 +27,7 @@ describe("DynamicBootstrapTimePickerComponent test suite", () => {
                 NoopAnimationsModule,
                 TimepickerModule.forRoot(),
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicBootstrapTimePickerComponent]
 

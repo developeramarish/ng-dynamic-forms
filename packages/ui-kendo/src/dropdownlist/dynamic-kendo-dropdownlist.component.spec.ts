@@ -27,7 +27,7 @@ describe("DynamicKendoDropdownListComponent test suite", () => {
                 NoopAnimationsModule,
                 DropDownListModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicKendoDropdownListComponent]
 

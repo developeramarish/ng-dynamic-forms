@@ -12,7 +12,7 @@ npm install @ng-dynamic-forms/ui-primeng -S
     imports: [
         // ...
         ReactiveFormsModule,
-        DynamicFormsCoreModule.forRoot(),
+        DynamicFormsCoreModule,
         DynamicFormsPrimeNGUIModule
     ]
 })

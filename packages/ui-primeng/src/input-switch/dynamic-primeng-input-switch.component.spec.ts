@@ -27,7 +27,7 @@ describe("DynamicPrimeNGInputSwitchComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 InputSwitchModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicPrimeNGInputSwitchComponent]
 

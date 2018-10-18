@@ -27,7 +27,7 @@ describe("DynamicPrimeNGAutoCompleteComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 AutoCompleteModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicPrimeNGAutoCompleteComponent]
 

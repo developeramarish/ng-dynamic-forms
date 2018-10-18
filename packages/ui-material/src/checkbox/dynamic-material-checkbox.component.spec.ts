@@ -27,7 +27,7 @@ describe("DynamicMaterialCheckboxComponent test suite", () => {
                 NoopAnimationsModule,
                 MatCheckboxModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicMaterialCheckboxComponent]
 

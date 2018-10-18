@@ -12,7 +12,7 @@ npm install @ng-dynamic-forms/core -S
     imports: [
         // ...
         ReactiveFormsModule,
-        DynamicFormsCoreModule.forRoot()
+        DynamicFormsCoreModule
 
     ]
 })

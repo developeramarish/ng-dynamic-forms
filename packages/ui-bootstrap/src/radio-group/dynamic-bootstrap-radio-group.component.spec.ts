@@ -29,7 +29,7 @@ describe("DynamicBootstrapRadioGroupComponent test suite", () => {
                 ReactiveFormsModule,
                 NoopAnimationsModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicBootstrapRadioGroupComponent]
 

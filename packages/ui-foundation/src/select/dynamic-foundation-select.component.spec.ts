@@ -25,7 +25,7 @@ describe("DynamicFoundationSelectComponent test suite", () => {
                 ReactiveFormsModule,
                 NoopAnimationsModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicFoundationSelectComponent]
 

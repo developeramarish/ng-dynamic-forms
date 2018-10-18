@@ -27,7 +27,7 @@ describe("DynamicKendoNumericTextBoxComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 NumericTextBoxModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicKendoNumericTextBoxComponent]
 

@@ -26,7 +26,7 @@ xdescribe("DynamicIonicInputComponent test suite", () => {
                 ReactiveFormsModule,
                 NoopAnimationsModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicIonicInputComponent]
 

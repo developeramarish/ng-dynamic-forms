@@ -25,7 +25,7 @@ describe("DynamicFoundationCheckboxComponent test suite", () => {
                 ReactiveFormsModule,
                 NoopAnimationsModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicFoundationCheckboxComponent]
 

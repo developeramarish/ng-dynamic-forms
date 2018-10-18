@@ -28,7 +28,7 @@ describe("DynamicMaterialInputComponent test suite", () => {
                 MatAutocompleteModule,
                 MatInputModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicMaterialInputComponent]
 

@@ -27,7 +27,7 @@ xdescribe("DynamicIonicDateTimeComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 IonicModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicIonicDateTimeComponent]
 

@@ -26,8 +26,8 @@ describe("DynamicNGBootstrapTimePickerComponent test suite", () => {
                 ReactiveFormsModule,
                 NoopAnimationsModule,
                 TextMaskModule,
-                NgbTimepickerModule.forRoot(),
-                DynamicFormsCoreModule.forRoot()
+                NgbTimepickerModule,
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicNGBootstrapTimePickerComponent]
 

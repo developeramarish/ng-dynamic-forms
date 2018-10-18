@@ -29,7 +29,7 @@ describe("DynamicKendoRadioGroupComponent test suite", () => {
                 ReactiveFormsModule,
                 NoopAnimationsModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicKendoRadioGroupComponent]
 

@@ -27,7 +27,7 @@ describe("DynamicMaterialSelectComponent test suite", () => {
                 NoopAnimationsModule,
                 MatSelectModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicMaterialSelectComponent]
 

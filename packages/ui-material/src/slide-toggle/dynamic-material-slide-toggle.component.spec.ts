@@ -27,7 +27,7 @@ describe("DynamicMaterialSlideToggleComponent test suite", () => {
                 NoopAnimationsModule,
                 MatSlideToggleModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicMaterialSlideToggleComponent]
 

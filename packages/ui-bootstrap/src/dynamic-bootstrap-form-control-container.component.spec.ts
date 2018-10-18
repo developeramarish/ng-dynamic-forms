@@ -81,7 +81,7 @@ describe("DynamicFormBootstrapComponent test suite", () => {
 
             imports: [
                 ReactiveFormsModule,
-                DynamicFormsCoreModule.forRoot(),
+                DynamicFormsCoreModule,
                 TextMaskModule,
                 BsDatepickerModule.forRoot(),
                 TimepickerModule.forRoot()

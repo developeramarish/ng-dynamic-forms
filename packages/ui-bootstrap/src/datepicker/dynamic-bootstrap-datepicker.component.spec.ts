@@ -27,7 +27,7 @@ describe("DynamicBootstrapDatePickerComponent test suite", () => {
                 NoopAnimationsModule,
                 BsDatepickerModule.forRoot(),
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicBootstrapDatePickerComponent]
 

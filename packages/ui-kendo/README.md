@@ -12,7 +12,7 @@ npm install @ng-dynamic-forms/ui-kendo -S
     imports: [
         // ...
         ReactiveFormsModule,
-        DynamicFormsCoreModule.forRoot(),
+        DynamicFormsCoreModule,
         DynamicFormsKendoUIModule
     ]
 })

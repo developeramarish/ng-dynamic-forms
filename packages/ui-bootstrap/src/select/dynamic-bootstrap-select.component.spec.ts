@@ -25,7 +25,7 @@ describe("DynamicBootstrapSelectComponent test suite", () => {
                 ReactiveFormsModule,
                 NoopAnimationsModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicBootstrapSelectComponent]
 

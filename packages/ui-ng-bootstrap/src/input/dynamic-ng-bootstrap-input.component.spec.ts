@@ -25,7 +25,7 @@ describe("DynamicNGBootstrapInputComponent test suite", () => {
                 ReactiveFormsModule,
                 NoopAnimationsModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicNGBootstrapInputComponent]
 

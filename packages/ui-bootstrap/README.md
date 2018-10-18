@@ -12,7 +12,7 @@ npm install @ng-dynamic-forms/ui-bootstrap -S
     imports: [
         // ...
         ReactiveFormsModule,
-        DynamicFormsCoreModule.forRoot(),
+        DynamicFormsCoreModule,
         DynamicFormsBootstrapUIModule
     ]
 })

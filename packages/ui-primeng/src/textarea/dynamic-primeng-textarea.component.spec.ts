@@ -27,7 +27,7 @@ describe("DynamicPrimeNGTextAreaComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 InputTextareaModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicPrimeNGTextAreaComponent]
 

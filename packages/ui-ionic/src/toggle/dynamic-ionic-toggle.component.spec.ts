@@ -26,7 +26,7 @@ xdescribe("DynamicIonicToggleComponent test suite", () => {
                 ReactiveFormsModule,
                 NoopAnimationsModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicIonicToggleComponent]
 

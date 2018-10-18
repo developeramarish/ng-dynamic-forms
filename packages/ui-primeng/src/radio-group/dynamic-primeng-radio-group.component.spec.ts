@@ -31,7 +31,7 @@ describe("DynamicPrimeNGRadioGroupComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 RadioButtonModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicPrimeNGRadioGroupComponent]
 

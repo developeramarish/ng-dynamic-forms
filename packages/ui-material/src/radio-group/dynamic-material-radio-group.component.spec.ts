@@ -27,7 +27,7 @@ describe("DynamicMaterialRadioGroupComponent test suite", () => {
                 NoopAnimationsModule,
                 MatRadioModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicMaterialRadioGroupComponent]
 

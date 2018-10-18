@@ -27,7 +27,7 @@ describe("DynamicPrimeNGSpinnerComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 SpinnerModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicPrimeNGSpinnerComponent]
 

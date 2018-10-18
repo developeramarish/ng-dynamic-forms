@@ -12,7 +12,7 @@ npm install @ng-dynamic-forms/ui-ionic -S
     imports: [
         // ...
         ReactiveFormsModule,
-        DynamicFormsCoreModule.forRoot(),
+        DynamicFormsCoreModule,
         DynamicFormsIonicUIModule
     ]
 })

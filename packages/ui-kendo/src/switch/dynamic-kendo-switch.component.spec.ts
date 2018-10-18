@@ -27,7 +27,7 @@ describe("DynamicKendoSwitchComponent test suite", () => {
                 NoopAnimationsModule,
                 SwitchModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicKendoSwitchComponent]
 

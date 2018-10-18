@@ -27,7 +27,7 @@ describe("DynamicPrimeNGCheckboxComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 CheckboxModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicPrimeNGCheckboxComponent]
 

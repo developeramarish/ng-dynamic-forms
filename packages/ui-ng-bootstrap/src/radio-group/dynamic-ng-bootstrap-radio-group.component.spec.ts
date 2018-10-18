@@ -31,7 +31,7 @@ describe("DynamicNGBootstrapRadioGroupComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 NgbButtonsModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicNGBootstrapRadioGroupComponent]
 

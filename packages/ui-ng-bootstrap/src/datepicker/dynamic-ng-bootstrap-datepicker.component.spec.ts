@@ -26,8 +26,8 @@ describe("DynamicNGBootstrapDatePickerComponent test suite", () => {
                 ReactiveFormsModule,
                 NoopAnimationsModule,
                 TextMaskModule,
-                NgbDatepickerModule.forRoot(),
-                DynamicFormsCoreModule.forRoot()
+                NgbDatepickerModule,
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicNGBootstrapDatePickerComponent]
 

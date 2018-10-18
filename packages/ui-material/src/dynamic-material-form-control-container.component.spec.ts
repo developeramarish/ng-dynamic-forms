@@ -105,7 +105,7 @@ describe("DynamicMaterialFormControlContainerComponent test suite", () => {
                 MatSliderModule,
                 MatSlideToggleModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicMaterialFormControlContainerComponent, DynamicMaterialInputComponent]
 

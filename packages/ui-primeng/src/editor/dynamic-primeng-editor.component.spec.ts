@@ -27,7 +27,7 @@ xdescribe("DynamicPrimeNGEditorComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 EditorModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicPrimeNGEditorComponent]
 

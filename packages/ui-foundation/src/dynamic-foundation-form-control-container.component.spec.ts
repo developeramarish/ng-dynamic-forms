@@ -76,7 +76,7 @@ describe("DynamicFoundationFormControlContainerComponent test suite", () => {
 
         TestBed.configureTestingModule({
 
-            imports: [ReactiveFormsModule, TextMaskModule, DynamicFormsCoreModule.forRoot()],
+            imports: [ReactiveFormsModule, TextMaskModule, DynamicFormsCoreModule],
             declarations: [DynamicFoundationFormControlContainerComponent, DynamicFoundationInputComponent]
 
         }).compileComponents().then(() => {

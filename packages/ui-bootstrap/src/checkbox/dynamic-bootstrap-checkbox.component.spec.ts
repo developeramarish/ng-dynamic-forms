@@ -25,7 +25,7 @@ describe("DynamicBootstrapCheckboxComponent test suite", () => {
                 ReactiveFormsModule,
                 NoopAnimationsModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicBootstrapCheckboxComponent]
 

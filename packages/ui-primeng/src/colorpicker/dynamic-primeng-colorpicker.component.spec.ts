@@ -27,7 +27,7 @@ describe("DynamicPrimeNGColorPickerComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 ColorPickerModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicPrimeNGColorPickerComponent]
 

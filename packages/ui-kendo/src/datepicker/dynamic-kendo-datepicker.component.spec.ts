@@ -27,7 +27,7 @@ describe("DynamicKendoDatePickerComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 DatePickerModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicKendoDatePickerComponent]
 

@@ -102,7 +102,7 @@ describe("DynamicPrimeNGFormControlContainerComponent test suite", () => {
             imports: [
                 ReactiveFormsModule,
                 NoopAnimationsModule,
-                DynamicFormsCoreModule.forRoot(),
+                DynamicFormsCoreModule,
                 AutoCompleteModule,
                 CalendarModule,
                 CheckboxModule,

@@ -31,7 +31,7 @@ describe("DynamicKendoMultiSelectComponent test suite", () => {
                 NoopAnimationsModule,
                 MultiSelectModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicKendoMultiSelectComponent]
 

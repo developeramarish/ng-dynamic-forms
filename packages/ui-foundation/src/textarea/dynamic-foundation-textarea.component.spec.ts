@@ -25,7 +25,7 @@ describe("DynamicFoundationTextAreaComponent test suite", () => {
                 ReactiveFormsModule,
                 NoopAnimationsModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicFoundationTextAreaComponent]
 

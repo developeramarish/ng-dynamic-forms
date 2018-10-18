@@ -27,7 +27,7 @@ describe("DynamicPrimeNGDropdownComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 DropdownModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicPrimeNGDropdownComponent]
 

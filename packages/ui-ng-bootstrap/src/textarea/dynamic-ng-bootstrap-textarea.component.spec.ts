@@ -25,7 +25,7 @@ describe("DynamicNGBootstrapTextAreaComponent test suite", () => {
                 ReactiveFormsModule,
                 NoopAnimationsModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicNGBootstrapTextAreaComponent]
 

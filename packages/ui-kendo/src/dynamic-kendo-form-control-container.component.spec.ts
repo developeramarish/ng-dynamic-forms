@@ -90,7 +90,7 @@ describe("DynamicKendoFormControlContainerComponent test suite", () => {
                 DropDownsModule,
                 InputsModule,
                 UploadModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicKendoFormControlContainerComponent, DynamicKendoDropdownListComponent]
 

@@ -27,7 +27,7 @@ describe("DynamicKendoAutoCompleteComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 AutoCompleteModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicKendoAutoCompleteComponent]
 

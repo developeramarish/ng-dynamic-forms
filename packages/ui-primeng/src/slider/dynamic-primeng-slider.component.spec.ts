@@ -27,7 +27,7 @@ describe("DynamicPrimeNGSliderComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 SliderModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicPrimeNGSliderComponent]
 

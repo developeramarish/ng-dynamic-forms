@@ -27,7 +27,7 @@ describe("DynamicPrimeNGCalendarComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 CalendarModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicPrimeNGCalendarComponent]
 

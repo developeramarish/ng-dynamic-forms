@@ -27,7 +27,7 @@ describe("DynamicKendoCalendarComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 CalendarModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicKendoCalendarComponent]
 

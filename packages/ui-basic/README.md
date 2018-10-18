@@ -12,7 +12,7 @@ npm install @ng-dynamic-forms/ui-basic -S
     imports: [
         // ...
         ReactiveFormsModule,
-        DynamicFormsCoreModule.forRoot(),
+        DynamicFormsCoreModule,
         DynamicFormsBasicUIModule
     ]
 })

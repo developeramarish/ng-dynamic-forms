@@ -27,7 +27,7 @@ describe("DynamicKendoSliderComponent test suite", () => {
                 NoopAnimationsModule,
                 SliderModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicKendoSliderComponent]
 

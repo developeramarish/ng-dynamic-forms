@@ -31,7 +31,7 @@ describe("DynamicPrimeNGMultiSelectComponent test suite", () => {
                 NoopAnimationsModule,
                 TextMaskModule,
                 MultiSelectModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicPrimeNGMultiSelectComponent]
 

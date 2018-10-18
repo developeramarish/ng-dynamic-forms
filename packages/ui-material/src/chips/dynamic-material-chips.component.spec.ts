@@ -35,7 +35,7 @@ describe("DynamicMaterialChipsComponent test suite", () => {
                 MatIconModule,
                 MatInputModule,
                 TextMaskModule,
-                DynamicFormsCoreModule.forRoot()
+                DynamicFormsCoreModule
             ],
             declarations: [DynamicMaterialChipsComponent]
 
