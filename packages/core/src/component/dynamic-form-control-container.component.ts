@@ -45,7 +45,6 @@ import { isString } from "../utils/core.utils";
 
 export abstract class DynamicFormControlContainerComponent implements OnChanges, OnDestroy {
 
-    bindId: boolean;
     context: DynamicFormArrayGroupModel | null = null;
     control: FormControl;
     group: FormGroup;
@@ -180,7 +179,6 @@ export abstract class DynamicFormControlContainerComponent implements OnChanges,
 
             let instance = this.componentRef.instance;
 
-            instance.bindId = this.bindId;
             instance.group = this.group;
             instance.layout = this.layout;
             instance.model = this.model as any;

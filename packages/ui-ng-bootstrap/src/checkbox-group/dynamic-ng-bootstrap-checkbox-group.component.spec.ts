@@ -54,7 +54,6 @@ describe("DynamicNGBootstrapCheckboxGroupComponent test suite", () => {
 
     it("should initialize correctly", () => {
 
-        expect(component.bindId).toBe(true);
         expect(component.control instanceof FormGroup).toBe(true);
         expect(component.group instanceof FormGroup).toBe(true);
         expect(component.model instanceof DynamicCheckboxGroupModel).toBe(true);
