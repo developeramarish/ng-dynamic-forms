@@ -42,10 +42,10 @@ import {
     DynamicTimePickerModel
 } from "../model/timepicker/dynamic-timepicker.model";
 import { DynamicFormValidationService } from "./dynamic-form-validation.service";
-import { DynamicFormModel, DynamicUnionFormModel } from "../model/misc/dynamic-form.model";
+import { DynamicFormModel, DynamicUnionFormModel } from "../model/dynamic-form.model";
 import { DynamicPathable } from "../model/misc/dynamic-form-control-path.model";
 import { DynamicValidatorsConfig } from "../model/misc/dynamic-form-control-validation.model";
-import { JSONUtils } from "../utils/json.utils";
+import { maskFromString, parseReviver } from "../utils/json.utils";
 import { isString } from "../utils/core.utils";
 
 @Injectable({
@@ -309,7 +309,7 @@ export class DynamicFormService {
 
     fromJSON(json: string | object[]): DynamicFormModel | never {
 
-        let formModelJSON = isString(json) ? JSON.parse(json, JSONUtils.parseReviver) : json,
+        let formModelJSON = isString(json) ? JSON.parse(json, parseReviver) : json,
             formModel: DynamicFormModel = [];
 
         formModelJSON.forEach((model: any) => {
@@ -370,7 +370,7 @@ export class DynamicFormService {
                     let inputModel = model as DynamicInputModel;
 
                     if (inputModel.mask !== null) {
-                        inputModel.mask = JSONUtils.maskFromString(inputModel.mask as string);
+                        inputModel.mask = maskFromString(inputModel.mask as string);
                     }
 
                     formModel.push(new DynamicInputModel(model, layout));

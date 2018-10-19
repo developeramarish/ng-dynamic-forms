@@ -6,8 +6,9 @@
 
 ### **Breaking Changes**
 
+* `DynamicFormModel` is now a type alias for `DynamicFormControlModel[]`
 * Importing `DynamicFormsCoreModule` via `forRoot()` has been removed
-* `bindId` input has been completely removed in favor of less verbose and less redundant `hasId` getter
+* `bindId` input has been completely removed in favor of internal `hasId` getter
 
 ***
 

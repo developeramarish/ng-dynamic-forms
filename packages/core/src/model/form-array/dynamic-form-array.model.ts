@@ -1,5 +1,5 @@
 import { DynamicFormControlModel, DynamicFormControlModelConfig } from "../dynamic-form-control.model";
-import { DynamicFormModel } from "../misc/dynamic-form.model";
+import { DynamicFormModel } from "../dynamic-form.model";
 import { DynamicFormControlLayout } from "../misc/dynamic-form-control-layout.model";
 import { DynamicPathable } from "../misc/dynamic-form-control-path.model";
 import { DynamicValidatorsConfig } from "../misc/dynamic-form-control-validation.model";

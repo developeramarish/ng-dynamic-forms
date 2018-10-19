@@ -39,7 +39,7 @@ import { DynamicFormControlRelationGroup } from "../model/misc/dynamic-form-cont
 import { DynamicTemplateDirective } from "../directive/dynamic-template.directive";
 import { DynamicFormLayout, DynamicFormLayoutService } from "../service/dynamic-form-layout.service";
 import { DynamicFormValidationService } from "../service/dynamic-form-validation.service";
-import { RelationUtils } from "../utils/relation.utils";
+import { findActivationRelation, getRelatedFormControls, isFormControlToBeDisabled } from "../utils/relation.utils";
 import { DynamicFormControl } from "./dynamic-form-control.interface";
 import { isString } from "../utils/core.utils";
 
@@ -211,7 +211,7 @@ export abstract class DynamicFormControlContainerComponent implements OnChanges,
 
     protected setControlRelations(): void {
 
-        let relActivation = RelationUtils.findActivationRelation(this.model.relation);
+        let relActivation = findActivationRelation(this.model.relation);
 
         if (relActivation !== null) {
 
@@ -219,7 +219,7 @@ export abstract class DynamicFormControlContainerComponent implements OnChanges,
 
             this.updateModelDisabled(rel);
 
-            RelationUtils.getRelatedFormControls(this.model, this.group).forEach(control => {
+            getRelatedFormControls(this.model, this.group).forEach(control => {
 
                 this.subscriptions.push(control.valueChanges.subscribe(() => this.updateModelDisabled(rel)));
                 this.subscriptions.push(control.statusChanges.subscribe(() => this.updateModelDisabled(rel)));
@@ -233,7 +233,7 @@ export abstract class DynamicFormControlContainerComponent implements OnChanges,
 
     updateModelDisabled(relation: DynamicFormControlRelationGroup): void {
 
-        this.model.disabledUpdates.next(RelationUtils.isFormControlToBeDisabled(relation, this.group));
+        this.model.disabledUpdates.next(isFormControlToBeDisabled(relation, this.group));
     }
 
     unsubscribe(): void {

@@ -14,6 +14,7 @@ export * from "./directive/dynamic-list.directive";
 export * from "./directive/dynamic-template.directive";
 
 export * from "./model/dynamic-form-control.model";
+export * from "./model/dynamic-form.model";
 export * from "./model/dynamic-form-value-control.model";
 export * from "./model/dynamic-check-control.model";
 export * from "./model/dynamic-date-control.model";
@@ -38,7 +39,6 @@ export * from "./model/switch/dynamic-switch.model";
 export * from "./model/textarea/dynamic-textarea.model";
 export * from "./model/timepicker/dynamic-timepicker.model";
 
-export * from "./model/misc/dynamic-form.model";
 export * from "./model/misc/dynamic-form-control-layout.model";
 export * from "./model/misc/dynamic-form-control-path.model";
 export * from "./model/misc/dynamic-form-control-relation.model";
