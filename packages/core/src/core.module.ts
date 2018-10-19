@@ -18,7 +18,8 @@ import { DynamicTemplateDirective } from "./directive/dynamic-template.directive
     exports: [
         DynamicIdDirective,
         DynamicListDirective,
-        DynamicTemplateDirective
+        DynamicTemplateDirective,
+        ReactiveFormsModule
     ]
 })
 export class DynamicFormsCoreModule {}

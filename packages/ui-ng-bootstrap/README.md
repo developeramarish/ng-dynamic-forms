@@ -10,7 +10,6 @@ npm install @ng-dynamic-forms/ui-ng-bootstrap -S
 @NgModule({
 
     imports: [
-        // ...
         ReactiveFormsModule,
         DynamicFormsCoreModule,
         DynamicFormsNGBootstrapUIModule

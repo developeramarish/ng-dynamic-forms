@@ -3,6 +3,7 @@ import { FormGroup } from "@angular/forms";
 import { DynamicFormControlContainerComponent } from "./dynamic-form-control-container.component";
 import { DynamicFormControlEvent, DynamicFormControlEventType } from "./dynamic-form-control.event";
 import { DynamicFormControlModel } from "../model/dynamic-form-control.model";
+import { DynamicFormModel } from "../model/misc/dynamic-form.model";
 import {
     DynamicFormControlLayout,
     DynamicFormControlLayoutContext,
@@ -12,10 +13,11 @@ import { DynamicTemplateDirective } from "../directive/dynamic-template.directiv
 import { DynamicFormService } from "../service/dynamic-form.service";
 import { DynamicFormLayout, DynamicFormLayoutService } from "../service/dynamic-form-layout.service";
 
+
 export abstract class DynamicFormComponent {
 
     formGroup: FormGroup;
-    formModel: DynamicFormControlModel[];
+    formModel: DynamicFormModel;
     formLayout: DynamicFormLayout;
 
     components: QueryList<DynamicFormControlContainerComponent>;

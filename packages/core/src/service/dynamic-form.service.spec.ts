@@ -7,7 +7,7 @@ import {
     NG_VALIDATORS,
     NG_ASYNC_VALIDATORS
 } from "@angular/forms";
-import { DynamicFormService } from "./dynamic-form.service";
+import { DynamicFormService, DynamicFormModel } from "./dynamic-form.service";
 import { DynamicFormValidationService } from "./dynamic-form-validation.service";
 import { DynamicCheckboxModel } from "../model/checkbox/dynamic-checkbox.model";
 import { DynamicCheckboxGroupModel } from "../model/checkbox/dynamic-checkbox-group.model";
@@ -31,7 +31,7 @@ import { DynamicFormValueControlModel } from "../model/dynamic-form-value-contro
 
 describe("DynamicFormService test suite", () => {
 
-    let testModel: DynamicFormControlModel[],
+    let testModel: DynamicFormModel,
         service: DynamicFormService;
 
     function testValidator() {

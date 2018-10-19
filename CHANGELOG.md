@@ -2,6 +2,17 @@
 
 ### **Features**
 
+* **update to Angular 7 & TypeScript 3.1**
+
+### **Breaking Changes**
+
+* Importing `DynamicFormsCoreModule` via `forRoot()` has been removed
+* `bindId` input has been completely removed in favor of less verbose and less redundant `hasId` getter
+
+***
+
+### **Features**
+
 * **Library now makes use of Angular 6 tree-shakeable providers**
 * Importing `DynamicFormsCoreModule` via `forRoot` is now deprecated and will be removed in next major version
 

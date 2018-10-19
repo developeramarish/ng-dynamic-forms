@@ -38,6 +38,7 @@ export * from "./model/switch/dynamic-switch.model";
 export * from "./model/textarea/dynamic-textarea.model";
 export * from "./model/timepicker/dynamic-timepicker.model";
 
+export * from "./model/misc/dynamic-form.model";
 export * from "./model/misc/dynamic-form-control-layout.model";
 export * from "./model/misc/dynamic-form-control-path.model";
 export * from "./model/misc/dynamic-form-control-relation.model";
